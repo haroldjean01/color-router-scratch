@@ -9,7 +9,9 @@ export default function RGB() {
   return (
     <div className="rgb-container" style={{ backgroundColor: `rbg(${r}, ${g}, ${b})` }}>
       <div className="color-container">
-        <NavLink to={'/rgb/100/100/255'}></NavLink>
+        <NavLink to={'/rgb/255/100/100'}>Red</NavLink>
+        <NavLink to={'/rgb/100/255/100'}>Green</NavLink>
+        <NavLink to={'/rgb/100/100/255'}>Blue</NavLink>
       </div>
       <h2>{color}</h2>
     </div>
