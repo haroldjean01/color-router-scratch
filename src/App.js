@@ -10,17 +10,17 @@ function App() {
   return (
     <Router>
       <div className="app-container">
-        <ul>
-          <li>
-            <NavLink to="/255/100/100">Red</NavLink>
-          </li>
-          <li>
-            <NavLink to="/100/255/100">Green</NavLink>
-          </li>
-          <li>
-            <NavLink to="/100/100/255">Blue</NavLink>
-          </li>
-        </ul>
+        <NavLink to="/255/100/100">
+          <button>Red</button>
+        </NavLink>
+
+        <NavLink to="/100/255/100">
+          <button>Green</button>
+        </NavLink>
+
+        <NavLink to="/100/100/255">
+          <button>Blue</button>
+        </NavLink>
 
         <Switch>
           <Route exact path="/">
