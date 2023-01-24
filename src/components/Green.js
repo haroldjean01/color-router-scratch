@@ -4,7 +4,7 @@ import './Green.css';
 
 export default function Green() {
   return (
-    <div className="green-container">
+    <div className="green-container" style={{ background: `rgb(100, 255, 100)` }}>
       <h1>Green</h1>
       <Link to="/">Back to Main</Link>
     </div>
