@@ -1,12 +1,13 @@
 import './App.css';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, NavLink } from 'react-router-dom';
 import NotFound from './components/NotFound.js';
+import RGB from './components/RGB/RGB.js';
 
 function App() {
   return (
  <>
   <Switch>
-    <Route></Route>
+    <Route path="/" component={RGB}/>
     <Route path="*" component={NotFound}/>
   </Switch>
  </>
