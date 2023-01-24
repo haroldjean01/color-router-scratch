@@ -10,18 +10,18 @@ function App() {
   return (
     <Router>
       <div className="app-container">
-        <NavLink to="/255/100/100">
-          <button>Red</button>
-        </NavLink>
-
-        <NavLink to="/100/255/100">
-          <button>Green</button>
-        </NavLink>
-
-        <NavLink to="/100/100/255">
-          <button>Blue</button>
-        </NavLink>
-
+        <div className="buttons-container">
+          {' '}
+          <NavLink to="/255/100/100">
+            <button>Red</button>
+          </NavLink>
+          <NavLink to="/100/255/100">
+            <button>Green</button>
+          </NavLink>
+          <NavLink to="/100/100/255">
+            <button>Blue</button>
+          </NavLink>
+        </div>
         <Switch>
           <Route exact path="/">
             <Redirect to="/255/100/100" />
