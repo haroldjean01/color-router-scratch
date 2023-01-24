@@ -5,12 +5,12 @@ import RGB from './components/RGB/RGB.js';
 
 function App() {
   return (
- <>
-  <Switch>
-    <Route path="/" component={RGB}/>
-    <Route path="*" component={NotFound}/>
-  </Switch>
- </>
+    <>
+      <Switch>
+        <Route path="/" component={RGB} />
+        <Route path="*" component={NotFound} />
+      </Switch>
+    </>
   );
 }
 
