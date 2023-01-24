@@ -12,9 +12,6 @@ function App() {
       <div>
         <ul>
           <li>
-            <NavLink to="/">RGB</NavLink>
-          </li>
-          <li>
             <NavLink to="/Red">Red</NavLink>
           </li>
           <li>
@@ -26,7 +23,7 @@ function App() {
         </ul>
 
         <Switch>
-          <Route path="/Red">
+          <Route exact path="/Red">
             <Red />
           </Route>
           <Route path="/Green">
