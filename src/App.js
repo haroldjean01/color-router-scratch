@@ -11,7 +11,6 @@ function App() {
     <Router>
       <div className="app-container">
         <div className="buttons-container">
-          {' '}
           <NavLink to="/255/100/100">
             <button>Red</button>
           </NavLink>

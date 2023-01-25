@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Blue.css';
-import useParams from './hook/useParams.js';
-
 export default function Blue() {
   return (
     <div className="blue-container" style={{ background: `rgb(100, 100, 255)` }}>
