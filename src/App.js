@@ -1,9 +1,6 @@
 import './App.css';
 import { Route, Switch, NavLink, Redirect } from 'react-router-dom';
 import NotFound from './components/NotFound.js';
-import Green from './components/Green.js';
-import Red from './components/Red.js';
-import Blue from './components/Blue.js';
 import { BrowserRouter as Router } from 'react-router-dom';
 import RGB from './components/RGB/RGB.js';
 
