@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.app-container {
+  row-gap: 500px;
+  margin: 0px;
+  text-align: center;
+  height: 100%;
+}
+
+.buttons-container {
+  background-color: black;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
